@@ -1,0 +1,9 @@
+-interpolation : enterpolasyonu 
+
+cubic convolution interpolation yöntemi
+
+-https://sisu.ut.ee/imageprocessing/book/3
+
+-https://sisu.ut.ee/sites/default/files/imageprocessing/files/interpolation.pdf
+
+-https://d1wqtxts1xzle7.cloudfront.net/52921594/cips2ed.pdf?1493716487=&response-content-disposition=inline%3B+filename%3DImage_Processing_in_C_Second_Edition.pdf&Expires=1625520569&Signature=d1j9gx0fYT5cJpT0iIwlDaIYyYYgN~cSLu5ekQzfWR-4Wq-7FjVOXJSwp9Co8LbJIaFchWSfYwfHDRASYrnjrV1nSSiHZ1dhsmz6zBi5YZOm6ZTSeNwfdxEW27UcegBeBrKS~tB315MUpyCdZIhc-ajjg~YH2aXkW9HQWD4C5Zouf-VwVJq4MFvWK4fewYh6obJcskrQy2pB81KBePkbj4MPxPUI0PxYMG5HBo305ySdcA1JSz2tRBBaYKmHyEsYUPujiHBcZSL8biOJnTW4wh1OdzKu4cyTu1P3DrOaQYCovmQ-wYEy059MfdAlH~FcVoI6Pb2CbcwrHlWKAGRJ9g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA

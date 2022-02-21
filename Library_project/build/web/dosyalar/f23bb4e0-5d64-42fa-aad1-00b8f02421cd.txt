@@ -1,0 +1,33 @@
+Not - 1 : Mantığım : Resimde tonlamalarda oynama yapılsada yan yana veya alt alta gelen 2 pikselin aynı renk tonlamasında
+              birbirine bölünme oranı değişmez çünkü tonlama değiştirilirken bütün resme veya belli noktaya uygulandığından 
+              ardışık pikseller aynı oranda değişeme uygulayacak bu yüzden birbirlerine bölündüklerinde çıkan sonuç 
+              değişmeyecektir.(Not -2 de resmin farklı bölgelerine farklı tonlamalar uygulandığında çıkabilecek sorunun cevabı var.)
+
+1 - Elimdeki resimlerden rastgele "yan yana veya alt alta " 2 pikselin sadece bir renk tonlaması alınarak
+     mesala mavi tonlaması(resim[2,3,0] = 49) ,bunlar birbirine bölünüp oran hesaplanır (a = piksel_1 / piksel_2)
+2 - Daha sonra gelen resimlerde yukarıda rasgele aldıgım piksellere karşılık gelen bu resimdeki pikselleri alıyorum 
+      ve bu resimdede "piksel_1 / piksel_2" yapıyorum(b =piksel_1 / piksel_2). 
+      (pikseller iki resimdede aynı satır stun değerlerinden alınacak - farklı boyut durumunu 5. mattede açıkladım)
+3 - Eğer birbirine eşitse aynı resim diyebilirim(if a == b). Bunu gerçekleştirken resimlerde 3 ayrı noktada yapıp, 
+      2 veya üstü eşitlikte aynıdır diyecem. (3-4-5 arttırılabilir ama hızdan ödün veririz , doğruluk oranımız artar )
+4 - 3. mattedeki doğruluk oranını arttırmak için karşılaştırma yapılan nokta sayısını arttırmak yerine  3 te 2 veya 3 te 1 doğruluk
+      veren resimlerde ayrıca farklı noktalarda konturol yaparak , resmin kopya olup olmadığı konusunda daha emin olunabilir.
+      tabi fazlası hızdan ödün verdirir.
+5 - Farklı boyuttaki resimlerde resmimizin boyuna oranla ne kadar küçüldüğünü hesaplıyarak bizim orjinal resmimizden 
+      aldığımız piksellere denk gelen piksellerde bu işlemleri uygulayabiliriz.(fikir sadece, uygulamaya çalışacam)
+6 - Eğer test edilen resim , orjinal resimden bi kesit alındıysa  = ( düşünüyorum )
+
+7 -  Bu algoritma orjinal resim üzerinde farklı renk tonlaması yapılan resimlerde sorunsuz çalışıyor(test ettiğim kadarıyla)
+8 - Orjinal boyutu değiştirme veya ek olarak tonlama farklılığı yapılırsa (çalışacagını düşünüyorum) : küçülme büyüme oranına
+      göre test resimindeki bakacağım pikseli hesaplıyacak bi formül bulmam lazım sadece.
+9 - Resim üzerinde yapılan ek değişikliklerin piksellere etkisini araştırıyorum ona göre çözümler arıyacam.
+
+Not -2 : Eğer resmin farklı bölgelerine farklı tonlama değişikliği yapıldıysa ve şansa tam seçtiğimiz ardışık iki piksel buraya denk
+              geldiyse burda aynı resim de olsa farklı oran olacaktır o yüzden aynı diyemez alg ama ben 3 ayrı noktada bu işlemi 
+             uygulayacağım için eğer  1 deneyimiz şanssız böygeye düsse bile diğer 2 noktamızdan gelen dogru orantılara göre işlem 
+              yapabiliriz. (4. Matte de açıkladım nasıl yapılabileceğini)
+
+
+ 
+                          
+ 

@@ -1,0 +1,20 @@
+  -istedigim:
+
+-aynı resim
+-üzerinde oynanma
+
+- Cihazlar resmi nasıl kaydeder , çeker
+
+- resim üzerinde oynama yapıldığı zaman resimde ne gibi değişiklikler olur.
+   - image duplication detection ,
+
+-genellikle geometrik veya aydınlatma ayarlarıyla oluşturulur.
+
+  - fast Fourier = çoğaltılan bölgelerin tespiti
+  
+
+-Üç ana adım, en yenisinin iskeletini oluşturmaktadır.pasif kopyala-taşı sahtecilik algılama (CMFD) yöntemleri. 
+İlk olarakadım, giriş görüntüsü bir dizi küçük boyutluörtüşen bloklar. 
+İkinci adımda, bazı özelliklerle görüntü özellikleriHer blok için değişmez özellikler çıkarılır ve birözellik vektörü. 
+Üçüncü adımda, bir eşleştirme yöntemi uygulanır.
+

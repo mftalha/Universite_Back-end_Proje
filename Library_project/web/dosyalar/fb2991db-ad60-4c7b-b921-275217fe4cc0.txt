@@ -1,0 +1,13 @@
+tomcat - tomcat   =user , pass
+-xampp  = C:\xampp\htdocs = php verileri kaydettigim yer
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WebApplication2"/>
+
+
+6. gün
+
+
+
+SELECT MIN('sira_no') AS LowValue  , MAX('sira_no') AS HighValue , MAX('sira_no') - MIN('sira_no') AS ValueRange FROM `acilir_menuler` 

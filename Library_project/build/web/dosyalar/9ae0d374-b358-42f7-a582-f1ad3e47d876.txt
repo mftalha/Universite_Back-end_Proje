@@ -1,0 +1,5 @@
+-phonex's = 652,8 hız = az
+-..            accuarcy = 184,5  ,, 217,5,(görünen) = az ,full saldırıda 217,73 
+-+4 nead hız = 682 yeterli
++4 hız ,, +6 +5 hiper olasılık nead = 32 acc+40, =177,16  
+-legend , legend ,ful acc +(70 acc,30 ra)= 187 acc, 480 hız

@@ -1,0 +1,11 @@
+- https://www.youtube.com/watch?v=Jc64osTrdfg  = açılır kapanır arama motoru.
+- https://getbootstrap.com/docs/4.3/components/forms/
+-https://www.youtube.com/watch?v=0A42ulpkbjc&t=1307s  = arama motoru 1
+-https://www.youtube.com/watch?v=LK2iFv_15q4  = arama motoru 2
+-- 
+Bostrap yazı kalınllık = aramaya = weight
+https://getbootstrap.com/docs/4.3/components/card/
+
+duyuru lar gibi 
+etkinlik tarihi
+resim

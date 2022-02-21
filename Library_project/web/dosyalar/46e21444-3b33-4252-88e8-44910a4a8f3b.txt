@@ -1,0 +1,56 @@
+- birim lerde sıra no ?
+-kisiler tablosunda saga kayma
+
+int aaaa =0;
+int r_id =-5;
+int ckt =0;
+db_slider db = new db_slider();
+
+
+String y_sirano ="";
+    String ssira_no = "";
+    int sira_no=0;
+    boolean rsm_knt = false;
+    int knt =0;
+
+
+switch (fi.getFieldName()) {
+                                    
+                                    case "sira_no": 
+                                        ssira_no = (new String(fi.getString().getBytes("ISO-8859-9"), "UTF-8"));
+                                        sira_no = Integer.parseInt(ssira_no);
+                                       
+                                        break;
+                                    case "icerik":
+                                        sql_slider.setIcerik(new String(fi.getString().getBytes("ISO-8859-9"), "UTF-8"));
+                                     
+                                        break;
+                                   
+                                    case "r_id":
+                                        r_id = (Integer.parseInt(fi.getString()));
+                     
+                                        break;
+                                       
+                                     case "y_sirano":
+                                        y_sirano =(new String(fi.getString().getBytes("ISO-8859-9"), "UTF-8"));
+                                     
+                                        break;
+                                        
+                                    case "rsm":
+                                        
+                                        if(rsm_knt == false)
+                                        {
+                                            sql_slider.setResim(new String(fi.getString().getBytes("ISO-8859-9"), "UTF-8"));
+                                        }
+                                        
+                                        break;                            
+
+
+
+if(!y_sirano.equals(ssira_no)) 
+                        {
+                            knt=1;
+                        }
+
+                        db.resim_guncelle(sql_slider.getIcerik(),r_id,sira_no,knt,sql_slider.getResim());
+                        ckt = 1;

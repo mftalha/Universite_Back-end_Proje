@@ -1,0 +1,13 @@
+ baktığım siteler :
+-https://helpx.adobe.com/tr/photoshop/using/image-size-resolution.html#resampling
+
+-https://helpx.adobe.com/tr/photoshop/kb/advanced-cropping-resizing-resampling-photoshop.html
+
+-median filter : küçükten büyüge sıralar değerleri ortanca değeri alır
+
+
+ 92, 141 ,
+
+128, 103
+
+-
